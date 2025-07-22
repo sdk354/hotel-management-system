@@ -1,0 +1,12 @@
+﻿# Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Results
+[Bb]in/
+[Oo]bj/
+
+# Packages
+packages/
