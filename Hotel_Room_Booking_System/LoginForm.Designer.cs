@@ -31,11 +31,13 @@
             txtUsername = new TextBox();
             txtPassword = new TextBox();
             btnLogin = new Button();
+            label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // txtUsername
             // 
-            txtUsername.Location = new Point(186, 128);
+            txtUsername.Location = new Point(256, 131);
             txtUsername.Name = "txtUsername";
             txtUsername.Size = new Size(200, 39);
             txtUsername.TabIndex = 0;
@@ -43,14 +45,14 @@
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(186, 198);
+            txtPassword.Location = new Point(256, 186);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(200, 39);
             txtPassword.TabIndex = 1;
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(708, 588);
+            btnLogin.Location = new Point(416, 286);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(150, 46);
             btnLogin.TabIndex = 2;
@@ -59,16 +61,37 @@
             btnLogin.UseVisualStyleBackColor = true;
             btnLogin.Click += btnLogin_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(115, 134);
+            label1.Name = "label1";
+            label1.Size = new Size(121, 32);
+            label1.TabIndex = 3;
+            label1.Text = "Username";
+            label1.Click += label1_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(125, 186);
+            label2.Name = "label2";
+            label2.Size = new Size(111, 32);
+            label2.TabIndex = 4;
+            label2.Text = "Password";
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1262, 794);
+            ClientSize = new Size(614, 378);
+            Controls.Add(label2);
+            Controls.Add(label1);
             Controls.Add(btnLogin);
             Controls.Add(txtPassword);
             Controls.Add(txtUsername);
             Name = "LoginForm";
-            Text = "Form1";
+            Text = "Login";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -78,5 +101,7 @@
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtPassword;
         private Button btnLogin;
+        private Label label1;
+        private Label label2;
     }
 }

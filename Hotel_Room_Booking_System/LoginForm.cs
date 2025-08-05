@@ -23,8 +23,9 @@ namespace Hotel_Room_Booking_System
                 int count = (int)cmd.ExecuteScalar();
                 if (count > 0)
                 {
+                    SessionManager.Username = txtUsername.Text;
                     this.Hide();
-                    //new DashboardForm().Show();
+                    new DashboardForm().Show();
                 }
                 else
                 {
@@ -34,6 +35,11 @@ namespace Hotel_Room_Booking_System
         }
 
         private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
