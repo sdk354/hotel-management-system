@@ -3,6 +3,7 @@
 *.suo
 *.userosscache
 *.sln.docstates
+.vs/
 
 # Build Results
 [Bb]in/
@@ -11,4 +12,4 @@
 # Packages
 packages/
 
-.vs/
+
