@@ -30,6 +30,7 @@
         {
             txtUsername = new TextBox();
             txtPassword = new TextBox();
+            chkShowPassword = new CheckBox();
             btnLogin = new Button();
             label1 = new Label();
             label2 = new Label();
@@ -41,7 +42,6 @@
             txtUsername.Name = "txtUsername";
             txtUsername.Size = new Size(200, 39);
             txtUsername.TabIndex = 0;
-            txtUsername.TextChanged += txtUsername_TextChanged;
             // 
             // txtPassword
             // 
@@ -49,6 +49,15 @@
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(200, 39);
             txtPassword.TabIndex = 1;
+            txtPassword.UseSystemPasswordChar = true;
+            // 
+            // chkShowPassword
+            // 
+            chkShowPassword.Location = new Point(256, 231);
+            chkShowPassword.Name = "chkShowPassword";
+            chkShowPassword.Size = new Size(200, 30);
+            chkShowPassword.Text = "Show Password";
+            chkShowPassword.CheckedChanged += chkShowPassword_CheckedChanged;
             // 
             // btnLogin
             // 
@@ -69,7 +78,6 @@
             label1.Size = new Size(121, 32);
             label1.TabIndex = 3;
             label1.Text = "Username";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -85,6 +93,7 @@
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(614, 378);
+            Controls.Add(chkShowPassword);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(btnLogin);
@@ -100,6 +109,7 @@
 
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtPassword;
+        private CheckBox chkShowPassword;
         private Button btnLogin;
         private Label label1;
         private Label label2;

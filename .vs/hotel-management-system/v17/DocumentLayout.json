@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sumith Hettiarachchi\\source\\repos\\hotel-management-system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\sumith hettiarachchi\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\sumith hettiarachchi\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\roomform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\roomform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\sumith hettiarachchi\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\sumith hettiarachchi\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\sumith hettiarachchi\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\sumith hettiarachchi\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\bookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\bookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Sumith Hettiarachchi\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\UserManagement.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\UserManagement.cs",
+              "ToolTip": "C:\\Users\\Sumith Hettiarachchi\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\UserManagement.cs [Design]",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\UserManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T16:25:31.13Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomForm1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Sumith Hettiarachchi\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RoomForm1.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\RoomForm1.cs",
+              "ToolTip": "C:\\Users\\Sumith Hettiarachchi\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RoomForm1.cs [Design]",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\RoomForm1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T16:25:27.477Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Sumith Hettiarachchi\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\PaymentForm.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\PaymentForm.cs",
+              "ToolTip": "C:\\Users\\Sumith Hettiarachchi\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\PaymentForm.cs [Design]",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\PaymentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T16:25:25.877Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Sumith Hettiarachchi\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Sumith Hettiarachchi\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T16:25:24.511Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Sumith Hettiarachchi\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\DashboardForm.cs",
+              "ToolTip": "C:\\Users\\Sumith Hettiarachchi\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.cs [Design]",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\DashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T16:25:22.924Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookingForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Sumith Hettiarachchi\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\BookingForm.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\BookingForm.cs",
+              "ToolTip": "C:\\Users\\Sumith Hettiarachchi\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\BookingForm.cs [Design]",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\BookingForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T16:25:14.493Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
