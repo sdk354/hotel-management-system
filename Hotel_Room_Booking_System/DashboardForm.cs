@@ -1,12 +1,4 @@
-﻿using Hotel_Room_Booking_System;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
 
 namespace Hotel_Room_Booking_System
@@ -20,22 +12,22 @@ namespace Hotel_Room_Booking_System
 
         private void btnCustomers_Click(object sender, EventArgs e)
         {
-            //new CustomerForm().Show();
+            new UserManagement().Show();  
         }
 
         private void btnRooms_Click(object sender, EventArgs e)
         {
-            //new RoomForm().Show();
+            new RoomForm1().Show(); 
         }
 
         private void btnBookings_Click(object sender, EventArgs e)
         {
-            //new BookingForm().Show();
+            new BookingForm().Show();
         }
 
         private void btnPayments_Click(object sender, EventArgs e)
         {
-            //new PaymentForm().Show();
+            new PaymentForm().Show();
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
