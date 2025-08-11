@@ -1,0 +1,18 @@
+# Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Build Results
+[Bb]in/
+[Oo]bj/
+
+# Packages
+packages/
+
+# Others
+*.log
+*.DS_Store
+*.vscode/
