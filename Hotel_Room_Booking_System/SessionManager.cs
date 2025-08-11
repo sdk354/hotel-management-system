@@ -9,10 +9,13 @@ namespace Hotel_Room_Booking_System
     public static class SessionManager
     {
         public static string? Username { get; set; }
+        public static string CurrentUserRole { get; set; } = "";
 
         public static void Clear()
         {
             Username = null;
+            CurrentUserRole = "";
         }
     }
+
 }

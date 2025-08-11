@@ -12,12 +12,12 @@ namespace Hotel_Room_Booking_System
 
         private void btnCustomers_Click(object sender, EventArgs e)
         {
-            new UserManagement().Show();  
+            new CustomerManagement().Show();
         }
 
         private void btnRooms_Click(object sender, EventArgs e)
         {
-            new RoomForm1().Show(); 
+            new RoomForm().Show();
         }
 
         private void btnBookings_Click(object sender, EventArgs e)
@@ -30,11 +30,19 @@ namespace Hotel_Room_Booking_System
             new PaymentForm().Show();
         }
 
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            new RegistrationForm().Show();
+        }
+
         private void btnLogout_Click(object sender, EventArgs e)
         {
+            // Clear session and delegate the flow to ShellContext
             SessionManager.Clear();
             this.Hide();
-            new LoginForm().Show();
+
+            // Do NOT call this.Close() here; let ShellContext orchestrate closure + relogin
+            ShellContext.Current.Relogin();
         }
     }
 }
