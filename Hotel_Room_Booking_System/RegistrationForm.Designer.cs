@@ -48,7 +48,7 @@ namespace Hotel_Room_Booking_System
             SuspendLayout();
 
             // Header
-            lblHeader.AutoSize = true;
+            // 
             lblHeader.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             lblHeader.Location = new Point(24, 18);
             lblHeader.Text = "Admin Registration";
