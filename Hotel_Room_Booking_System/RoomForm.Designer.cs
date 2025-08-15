@@ -2,14 +2,23 @@
 {
     partial class RoomForm
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
+        private TextBox txtRoomNumber;
+        private TextBox textRoomType;
+        private TextBox txtPric;
+        private ComboBox cmbStatus;
+        private Button btnAdd;
+        private Button btnUpdate;
+        private Button btnDelete;
+        private Button btnLoad;
+        private Button btnClear;
+        private DataGridView dataGridView1;
+        private Label lblRoomNumber;
+        private Label lblRoomType;
+        private Label lblPrice;
+        private Label lblStatus;
+        private Label lblViewRoom;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -17,192 +26,200 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
-
         private void InitializeComponent()
         {
-            lblRoomNumber = new Label();
             txtRoomNumber = new TextBox();
             textRoomType = new TextBox();
             txtPric = new TextBox();
-            lblRoomType = new Label();
-            lblPrice = new Label();
             cmbStatus = new ComboBox();
-            lblStatus = new Label();
             btnAdd = new Button();
             btnUpdate = new Button();
-            btnLoad = new Button();
             btnDelete = new Button();
+            btnLoad = new Button();
             btnClear = new Button();
             dataGridView1 = new DataGridView();
+            lblRoomNumber = new Label();
+            lblRoomType = new Label();
+            lblPrice = new Label();
+            lblStatus = new Label();
             lblViewRoom = new Label();
+            lblHeader = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
-            // lblRoomNumber
-            // 
-            lblRoomNumber.AutoSize = true;
-            lblRoomNumber.Location = new Point(24, 24);
-            lblRoomNumber.Margin = new Padding(5, 0, 5, 0);
-            lblRoomNumber.Name = "lblRoomNumber";
-            lblRoomNumber.Size = new Size(123, 32);
-            lblRoomNumber.TabIndex = 100;
-            lblRoomNumber.Text = "Room No.";
-            // 
             // txtRoomNumber
             // 
-            txtRoomNumber.Location = new Point(180, 20);
-            txtRoomNumber.Margin = new Padding(5);
+            txtRoomNumber.Font = new Font("Segoe UI", 12F);
+            txtRoomNumber.Location = new Point(153, 102);
             txtRoomNumber.MaxLength = 6;
             txtRoomNumber.Name = "txtRoomNumber";
-            txtRoomNumber.Size = new Size(300, 39);
-            txtRoomNumber.TabIndex = 0;
-            // 
-            // lblRoomType
-            // 
-            lblRoomType.AutoSize = true;
-            lblRoomType.Location = new Point(24, 76);
-            lblRoomType.Margin = new Padding(5, 0, 5, 0);
-            lblRoomType.Name = "lblRoomType";
-            lblRoomType.Size = new Size(65, 32);
-            lblRoomType.TabIndex = 3;
-            lblRoomType.Text = "Type";
+            txtRoomNumber.Size = new Size(200, 34);
+            txtRoomNumber.TabIndex = 1;
             // 
             // textRoomType
             // 
-            textRoomType.Location = new Point(180, 72);
-            textRoomType.Margin = new Padding(5);
+            textRoomType.Font = new Font("Segoe UI", 12F);
+            textRoomType.Location = new Point(153, 152);
             textRoomType.Name = "textRoomType";
-            textRoomType.Size = new Size(300, 39);
-            textRoomType.TabIndex = 1;
-            // 
-            // lblPrice
-            // 
-            lblPrice.AutoSize = true;
-            lblPrice.Location = new Point(24, 128);
-            lblPrice.Margin = new Padding(5, 0, 5, 0);
-            lblPrice.Name = "lblPrice";
-            lblPrice.Size = new Size(65, 32);
-            lblPrice.TabIndex = 4;
-            lblPrice.Text = "Price";
+            textRoomType.Size = new Size(200, 34);
+            textRoomType.TabIndex = 3;
             // 
             // txtPric
             // 
-            txtPric.Location = new Point(180, 124);
-            txtPric.Margin = new Padding(5);
+            txtPric.Font = new Font("Segoe UI", 12F);
+            txtPric.Location = new Point(153, 202);
             txtPric.Name = "txtPric";
-            txtPric.Size = new Size(300, 39);
-            txtPric.TabIndex = 2;
-            // 
-            // lblStatus
-            // 
-            lblStatus.AutoSize = true;
-            lblStatus.Location = new Point(24, 180);
-            lblStatus.Margin = new Padding(5, 0, 5, 0);
-            lblStatus.Name = "lblStatus";
-            lblStatus.Size = new Size(78, 32);
-            lblStatus.TabIndex = 5;
-            lblStatus.Text = "Status";
+            txtPric.Size = new Size(200, 34);
+            txtPric.TabIndex = 5;
             // 
             // cmbStatus
             // 
-            cmbStatus.FormattingEnabled = true;
-            cmbStatus.Location = new Point(180, 176);
-            cmbStatus.Margin = new Padding(5);
+            cmbStatus.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbStatus.Font = new Font("Segoe UI", 12F);
+            cmbStatus.Location = new Point(153, 252);
             cmbStatus.Name = "cmbStatus";
-            cmbStatus.Size = new Size(300, 40);
-            cmbStatus.TabIndex = 3;
+            cmbStatus.Size = new Size(200, 36);
+            cmbStatus.TabIndex = 7;
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(520, 20);
-            btnAdd.Margin = new Padding(5);
+            btnAdd.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnAdd.Location = new Point(383, 102);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(200, 44);
-            btnAdd.TabIndex = 4;
+            btnAdd.Size = new Size(120, 36);
+            btnAdd.TabIndex = 8;
             btnAdd.Text = "Add Room";
             btnAdd.UseVisualStyleBackColor = true;
             btnAdd.Click += btnAdd_Click;
             // 
             // btnUpdate
             // 
-            btnUpdate.Location = new Point(520, 76);
-            btnUpdate.Margin = new Padding(5);
+            btnUpdate.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnUpdate.Location = new Point(383, 152);
             btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(200, 44);
-            btnUpdate.TabIndex = 5;
+            btnUpdate.Size = new Size(120, 36);
+            btnUpdate.TabIndex = 9;
             btnUpdate.Text = "Update Room";
             btnUpdate.UseVisualStyleBackColor = true;
             btnUpdate.Click += btnUpdate_Click;
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(520, 132);
-            btnDelete.Margin = new Padding(5);
+            btnDelete.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnDelete.Location = new Point(383, 202);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(200, 44);
-            btnDelete.TabIndex = 6;
+            btnDelete.Size = new Size(120, 36);
+            btnDelete.TabIndex = 10;
             btnDelete.Text = "Delete Room";
             btnDelete.UseVisualStyleBackColor = true;
             btnDelete.Click += btnDelete_Click;
             // 
             // btnLoad
             // 
-            btnLoad.Location = new Point(520, 188);
-            btnLoad.Margin = new Padding(5);
+            btnLoad.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnLoad.Location = new Point(383, 252);
             btnLoad.Name = "btnLoad";
-            btnLoad.Size = new Size(200, 44);
-            btnLoad.TabIndex = 7;
+            btnLoad.Size = new Size(120, 36);
+            btnLoad.TabIndex = 11;
             btnLoad.Text = "Refresh";
             btnLoad.UseVisualStyleBackColor = true;
             btnLoad.Click += btnLoad_Click;
             // 
             // btnClear
             // 
-            btnClear.Location = new Point(520, 244);
-            btnClear.Margin = new Padding(5);
+            btnClear.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnClear.Location = new Point(383, 302);
             btnClear.Name = "btnClear";
-            btnClear.Size = new Size(200, 44);
-            btnClear.TabIndex = 8;
+            btnClear.Size = new Size(120, 36);
+            btnClear.TabIndex = 12;
             btnClear.Text = "Clear";
             btnClear.UseVisualStyleBackColor = true;
             btnClear.Click += btnClear_Click;
-            Controls.Add(btnClear);
-            // 
-            // lblViewRoom
-            // 
-            lblViewRoom.AutoSize = true;
-            lblViewRoom.Location = new Point(24, 280);
-            lblViewRoom.Margin = new Padding(5, 0, 5, 0);
-            lblViewRoom.Name = "lblViewRoom";
-            lblViewRoom.Size = new Size(144, 32);
-            lblViewRoom.TabIndex = 9;
-            lblViewRoom.Text = "View Rooms";
             // 
             // dataGridView1
             // 
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.AllowUserToDeleteRows = false;
-            dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                                    | System.Windows.Forms.AnchorStyles.Left)
-                                    | System.Windows.Forms.AnchorStyles.Right)));
+            dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(24, 320);
-            dataGridView1.Margin = new Padding(5);
+            dataGridView1.ColumnHeadersHeight = 29;
+            dataGridView1.Location = new Point(33, 395);
             dataGridView1.MultiSelect = false;
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(1252, 364);
-            dataGridView1.TabIndex = 8;
+            dataGridView1.Size = new Size(872, 132);
+            dataGridView1.TabIndex = 14;
+            // 
+            // lblRoomNumber
+            // 
+            lblRoomNumber.AutoSize = true;
+            lblRoomNumber.Font = new Font("Segoe UI", 12F);
+            lblRoomNumber.Location = new Point(33, 105);
+            lblRoomNumber.Name = "lblRoomNumber";
+            lblRoomNumber.Size = new Size(100, 28);
+            lblRoomNumber.TabIndex = 0;
+            lblRoomNumber.Text = "Room No.";
+            // 
+            // lblRoomType
+            // 
+            lblRoomType.AutoSize = true;
+            lblRoomType.Font = new Font("Segoe UI", 12F);
+            lblRoomType.Location = new Point(33, 155);
+            lblRoomType.Name = "lblRoomType";
+            lblRoomType.Size = new Size(53, 28);
+            lblRoomType.TabIndex = 2;
+            lblRoomType.Text = "Type";
+            // 
+            // lblPrice
+            // 
+            lblPrice.AutoSize = true;
+            lblPrice.Font = new Font("Segoe UI", 12F);
+            lblPrice.Location = new Point(33, 205);
+            lblPrice.Name = "lblPrice";
+            lblPrice.Size = new Size(54, 28);
+            lblPrice.TabIndex = 4;
+            lblPrice.Text = "Price";
+            // 
+            // lblStatus
+            // 
+            lblStatus.AutoSize = true;
+            lblStatus.Font = new Font("Segoe UI", 12F);
+            lblStatus.Location = new Point(33, 255);
+            lblStatus.Name = "lblStatus";
+            lblStatus.Size = new Size(65, 28);
+            lblStatus.TabIndex = 6;
+            lblStatus.Text = "Status";
+            // 
+            // lblViewRoom
+            // 
+            lblViewRoom.AutoSize = true;
+            lblViewRoom.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            lblViewRoom.Location = new Point(33, 355);
+            lblViewRoom.Name = "lblViewRoom";
+            lblViewRoom.Size = new Size(128, 28);
+            lblViewRoom.TabIndex = 13;
+            lblViewRoom.Text = "View Rooms";
+            // 
+            // lblHeader
+            // 
+            lblHeader.AutoSize = true;
+            lblHeader.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
+            lblHeader.ForeColor = Color.DarkSlateBlue;
+            lblHeader.Location = new Point(307, 27);
+            lblHeader.Name = "lblHeader";
+            lblHeader.Size = new Size(335, 46);
+            lblHeader.TabIndex = 15;
+            lblHeader.Text = "Room Management";
             // 
             // RoomForm
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1300, 720);
+            BackColor = Color.WhiteSmoke;
+            ClientSize = new Size(942, 550);
+            Controls.Add(lblHeader);
             Controls.Add(lblRoomNumber);
             Controls.Add(txtRoomNumber);
             Controls.Add(lblRoomType);
@@ -215,9 +232,9 @@
             Controls.Add(btnUpdate);
             Controls.Add(btnDelete);
             Controls.Add(btnLoad);
+            Controls.Add(btnClear);
             Controls.Add(lblViewRoom);
             Controls.Add(dataGridView1);
-            Margin = new Padding(5);
             Name = "RoomForm";
             Text = "Rooms";
             Load += RoomForm_Load;
@@ -225,23 +242,6 @@
             ResumeLayout(false);
             PerformLayout();
         }
-
-        #endregion
-
-        private TextBox txtRoomNumber;
-        private Label lblRoomNumber;
-        private TextBox textRoomType;
-        private TextBox txtPric;
-        private Label lblRoomType;
-        private Label lblPrice;
-        private ComboBox cmbStatus;
-        private Label lblStatus;
-        private Button btnAdd;
-        private Button btnUpdate;
-        private Button btnLoad;
-        private Button btnDelete;
-        private Button btnClear;
-        private DataGridView dataGridView1;
-        private Label lblViewRoom;
+        private Label lblHeader;
     }
 }
