@@ -43,84 +43,155 @@ namespace Hotel_Room_Booking_System
             lblRole = new Label();
             dgvAdmins = new DataGridView();
             lblHeader = new Label();
-
             ((System.ComponentModel.ISupportInitialize)dgvAdmins).BeginInit();
             SuspendLayout();
-
-            // Header
             // 
-            lblHeader.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
-            lblHeader.Location = new Point(24, 18);
-            lblHeader.Text = "Admin Registration";
-
-            // Username
-            lblUsername.AutoSize = true;
-            lblUsername.Location = new Point(24, 72);
-            lblUsername.Text = "Username";
-            txtUsername.Location = new Point(150, 68);
-            txtUsername.Size = new Size(260, 35);
-
-            // Password
-            lblPassword.AutoSize = true;
-            lblPassword.Location = new Point(24, 120);
-            lblPassword.Text = "Password";
-            txtPassword.Location = new Point(150, 116);
-            txtPassword.Size = new Size(260, 35);
+            // txtUsername
+            // 
+            txtUsername.Font = new Font("Segoe UI", 12F);
+            txtUsername.Location = new Point(140, 82);
+            txtUsername.Name = "txtUsername";
+            txtUsername.Size = new Size(220, 34);
+            txtUsername.TabIndex = 2;
+            // 
+            // txtPassword
+            // 
+            txtPassword.Font = new Font("Segoe UI", 12F);
+            txtPassword.Location = new Point(140, 132);
+            txtPassword.Name = "txtPassword";
             txtPassword.PasswordChar = '•';
-
-            // Role
-            lblRole.AutoSize = true;
-            lblRole.Location = new Point(24, 168);
-            lblRole.Text = "Role";
-            cmbRole.Location = new Point(150, 164);
-            cmbRole.Size = new Size(260, 38);
+            txtPassword.Size = new Size(220, 34);
+            txtPassword.TabIndex = 4;
+            // 
+            // cmbRole
+            // 
             cmbRole.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbRole.Font = new Font("Segoe UI", 12F);
             cmbRole.Items.AddRange(new object[] { "SuperAdmin", "Admin", "Manager" });
-
-            // Buttons
-            btnSave.Location = new Point(24, 220);
-            btnSave.Size = new Size(120, 40);
+            cmbRole.Location = new Point(140, 182);
+            cmbRole.Name = "cmbRole";
+            cmbRole.Size = new Size(220, 36);
+            cmbRole.TabIndex = 6;
+            // 
+            // btnSave
+            // 
+            btnSave.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnSave.Location = new Point(37, 248);
+            btnSave.Name = "btnSave";
+            btnSave.Size = new Size(100, 36);
+            btnSave.TabIndex = 7;
             btnSave.Text = "Save";
+            btnSave.UseVisualStyleBackColor = true;
             btnSave.Click += btnSave_Click;
-
-            btnUpdate.Location = new Point(154, 220);
-            btnUpdate.Size = new Size(120, 40);
+            // 
+            // btnUpdate
+            // 
+            btnUpdate.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnUpdate.Location = new Point(159, 248);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(100, 36);
+            btnUpdate.TabIndex = 8;
             btnUpdate.Text = "Update";
+            btnUpdate.UseVisualStyleBackColor = true;
             btnUpdate.Click += btnUpdate_Click;
-
-            btnDelete.Location = new Point(284, 220);
-            btnDelete.Size = new Size(120, 40);
+            // 
+            // btnDelete
+            // 
+            btnDelete.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnDelete.Location = new Point(278, 248);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(100, 36);
+            btnDelete.TabIndex = 9;
             btnDelete.Text = "Delete";
+            btnDelete.UseVisualStyleBackColor = true;
             btnDelete.Click += btnDelete_Click;
-
-            btnRefresh.Location = new Point(414, 220);
-            btnRefresh.Size = new Size(120, 40);
+            // 
+            // btnRefresh
+            // 
+            btnRefresh.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnRefresh.Location = new Point(399, 248);
+            btnRefresh.Name = "btnRefresh";
+            btnRefresh.Size = new Size(100, 36);
+            btnRefresh.TabIndex = 10;
             btnRefresh.Text = "Refresh";
+            btnRefresh.UseVisualStyleBackColor = true;
             btnRefresh.Click += btnRefresh_Click;
-
-            btnClear.Location = new Point(544, 220);
-            btnClear.Size = new Size(120, 40);
+            // 
+            // btnClear
+            // 
+            btnClear.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnClear.Location = new Point(520, 248);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(100, 36);
+            btnClear.TabIndex = 11;
             btnClear.Text = "Clear";
+            btnClear.UseVisualStyleBackColor = true;
             btnClear.Click += btnClear_Click;
-
-            // Grid
+            // 
+            // lblUsername
+            // 
+            lblUsername.AutoSize = true;
+            lblUsername.Font = new Font("Segoe UI", 12F);
+            lblUsername.Location = new Point(20, 85);
+            lblUsername.Name = "lblUsername";
+            lblUsername.Size = new Size(99, 28);
+            lblUsername.TabIndex = 1;
+            lblUsername.Text = "Username";
+            // 
+            // lblPassword
+            // 
+            lblPassword.AutoSize = true;
+            lblPassword.Font = new Font("Segoe UI", 12F);
+            lblPassword.Location = new Point(20, 135);
+            lblPassword.Name = "lblPassword";
+            lblPassword.Size = new Size(93, 28);
+            lblPassword.TabIndex = 3;
+            lblPassword.Text = "Password";
+            // 
+            // lblRole
+            // 
+            lblRole.AutoSize = true;
+            lblRole.Font = new Font("Segoe UI", 12F);
+            lblRole.Location = new Point(20, 185);
+            lblRole.Name = "lblRole";
+            lblRole.Size = new Size(50, 28);
+            lblRole.TabIndex = 5;
+            lblRole.Text = "Role";
+            // 
+            // dgvAdmins
+            // 
             dgvAdmins.AllowUserToAddRows = false;
             dgvAdmins.AllowUserToDeleteRows = false;
             dgvAdmins.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dgvAdmins.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgvAdmins.Location = new Point(24, 280);
+            dgvAdmins.ColumnHeadersHeight = 29;
+            dgvAdmins.Location = new Point(20, 300);
             dgvAdmins.MultiSelect = false;
             dgvAdmins.Name = "dgvAdmins";
             dgvAdmins.ReadOnly = true;
             dgvAdmins.RowHeadersWidth = 51;
             dgvAdmins.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvAdmins.Size = new Size(640, 260);
+            dgvAdmins.Size = new Size(892, 220);
             dgvAdmins.TabIndex = 100;
-
-            // Form
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            dgvAdmins.CellContentClick += dgvAdmins_CellContentClick;
+            // 
+            // lblHeader
+            // 
+            lblHeader.AutoSize = true;
+            lblHeader.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
+            lblHeader.ForeColor = Color.DarkSlateBlue;
+            lblHeader.Location = new Point(310, 18);
+            lblHeader.Name = "lblHeader";
+            lblHeader.Size = new Size(331, 46);
+            lblHeader.TabIndex = 0;
+            lblHeader.Text = "Admin Registration";
+            // 
+            // RegistrationForm
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(690, 560);
+            BackColor = Color.WhiteSmoke;
+            ClientSize = new Size(942, 550);
             Controls.Add(lblHeader);
             Controls.Add(lblUsername);
             Controls.Add(txtUsername);
@@ -137,7 +208,6 @@ namespace Hotel_Room_Booking_System
             Name = "RegistrationForm";
             Text = "Admin Registration";
             Load += RegistrationForm_Load;
-
             ((System.ComponentModel.ISupportInitialize)dgvAdmins).EndInit();
             ResumeLayout(false);
             PerformLayout();

@@ -44,5 +44,10 @@ namespace Hotel_Room_Booking_System
             // Do NOT call this.Close() here; let ShellContext orchestrate closure + relogin
             ShellContext.Current.Relogin();
         }
+
+        private void lblWelcome_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

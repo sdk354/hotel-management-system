@@ -272,5 +272,10 @@ namespace Hotel_Room_Booking_System
             selectedAdminId = null;
             dgvAdmins.ClearSelection();
         }
+
+        private void dgvAdmins_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
