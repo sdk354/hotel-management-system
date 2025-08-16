@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace Hotel_Room_Booking_System
@@ -10,44 +11,41 @@ namespace Hotel_Room_Booking_System
             InitializeComponent();
         }
 
-        private void btnCustomers_Click(object sender, EventArgs e)
+        private void ShowSingleForm<T>() where T : Form, new()
         {
-            new CustomerManagement().Show();
+            var form = Application.OpenForms.OfType<T>().FirstOrDefault();
+            if (form != null)
+            {
+                if (form.WindowState == FormWindowState.Minimized)
+                    form.WindowState = FormWindowState.Normal;
+                form.BringToFront();
+            }
+            else
+            {
+                new T().Show();
+            }
         }
+
+        private void btnCustomers_Click(object sender, EventArgs e)
+            => ShowSingleForm<CustomerManagement>();
 
         private void btnRooms_Click(object sender, EventArgs e)
-        {
-            new RoomForm().Show();
-        }
+            => ShowSingleForm<RoomForm>();
 
         private void btnBookings_Click(object sender, EventArgs e)
-        {
-            new BookingForm().Show();
-        }
+            => ShowSingleForm<BookingForm>();
 
         private void btnPayments_Click(object sender, EventArgs e)
-        {
-            new PaymentForm().Show();
-        }
+            => ShowSingleForm<PaymentForm>();
 
         private void btnRegister_Click(object sender, EventArgs e)
-        {
-            new RegistrationForm().Show();
-        }
+            => ShowSingleForm<RegistrationForm>();
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            // Clear session and delegate the flow to ShellContext
             SessionManager.Clear();
-            this.Hide();
-
-            // Do NOT call this.Close() here; let ShellContext orchestrate closure + relogin
+            Hide();
             ShellContext.Current.Relogin();
-        }
-
-        private void lblWelcome_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

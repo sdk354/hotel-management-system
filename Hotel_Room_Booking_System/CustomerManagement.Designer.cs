@@ -106,14 +106,15 @@ namespace Hotel_Room_Booking_System
             dgvCustomers.AllowUserToDeleteRows = false;
             dgvCustomers.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dgvCustomers.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgvCustomers.ColumnHeadersHeight = 29;
+            dgvCustomers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvCustomers.ColumnHeadersDefaultCellStyle.Padding = new Padding(0, 4, 0, 4);
             dgvCustomers.Location = new Point(30, 250);
             dgvCustomers.MultiSelect = false;
             dgvCustomers.Name = "dgvCustomers";
             dgvCustomers.ReadOnly = true;
             dgvCustomers.RowHeadersWidth = 51;
             dgvCustomers.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvCustomers.Size = new Size(876, 223);
+            dgvCustomers.Size = new Size(876, 253);
             dgvCustomers.TabIndex = 100;
             dgvCustomers.CellClick += dgvCustomers_CellClick;
             // 
@@ -163,7 +164,7 @@ namespace Hotel_Room_Booking_System
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(946, 503);
+            ClientSize = new Size(946, 533);  // increased height by 30
             Controls.Add(lblHeader);
             Controls.Add(label1);
             Controls.Add(txtName);

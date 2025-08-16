@@ -6,7 +6,7 @@ namespace Hotel_Room_Booking_System
 {
     public static class DatabaseHelper
     {
-        private static readonly string connectionString = "Data Source=.\\SQLEXPRESS; Initial Catalog=HotelDB; Integrated Security=True; TrustServerCertificate=true";
+        private static readonly string connectionString = "Data Source=localhost; Initial Catalog=HotelDB; Integrated Security=True; TrustServerCertificate=true";
 
 
         public static SqlConnection GetConnection()

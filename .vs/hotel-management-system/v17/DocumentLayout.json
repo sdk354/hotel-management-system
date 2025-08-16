@@ -1,114 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\",
+  "WorkspaceRootPath": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\databaseschema.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\databaseschema.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\bookingform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\bookingform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\bookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\bookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\customermanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\customermanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\customermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\customermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\customermanagement.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\customermanagement.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\registrationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\registrationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\dashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\dashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\dashboardform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\dashboardform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\paymentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\paymentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\paymentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\customermanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\customermanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\bookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\bookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\customermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\customermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\bookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\bookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\bookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\bookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\bookingform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\bookingform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\dashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\dashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\roomform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\roomform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\registrationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\registrationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\dumindu2006\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\customermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\customermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|c:\\users\\senuda\\source\\repos\\hotel-management-system\\hotel_room_booking_system\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7971905-975B-4626-AA98-F8CAC8825A73}|Hotel_Room_Booking_System\\Hotel_Room_Booking_System.csproj|solutionrelative:hotel_room_booking_system\\roomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -133,330 +105,264 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookingForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\BookingForm.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\BookingForm.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\BookingForm.cs [Design]",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\BookingForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T16:25:14.493Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookingForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\BookingForm.Designer.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\BookingForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\BookingForm.Designer.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\BookingForm.Designer.cs",
-              "ViewState": "AgIAACkAAAAABAAAAAD4v5AAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T15:12:14.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DatabaseSchema.sql",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DatabaseSchema.sql",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\DatabaseSchema.sql",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DatabaseSchema.sql",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\DatabaseSchema.sql",
-              "ViewState": "AgIAABgAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-08-11T14:36:21.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\DatabaseHelper.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DatabaseHelper.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\DatabaseHelper.cs",
-              "ViewState": "AgIAAAAAAACAZmZmZmYEwAYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T05:27:56.177Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegistrationForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RegistrationForm.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\RegistrationForm.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RegistrationForm.cs [Design]",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\RegistrationForm.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "PaymentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\PaymentForm.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\PaymentForm.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\PaymentForm.cs [Design]",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\PaymentForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T17:34:03.256Z",
+              "WhenOpened": "2025-08-16T06:10:41.322Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CustomerManagement.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\CustomerManagement.Designer.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\CustomerManagement.Designer.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\CustomerManagement.Designer.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\CustomerManagement.Designer.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwLkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PaymentForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\PaymentForm.Designer.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\PaymentForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\PaymentForm.Designer.cs",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\PaymentForm.Designer.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAAUwEkBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T15:25:33.126Z"
+              "WhenOpened": "2025-08-16T05:58:46.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DashboardForm.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\DashboardForm.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\DashboardForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "PaymentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\PaymentForm.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\PaymentForm.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\PaymentForm.cs",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\PaymentForm.cs",
+              "ViewState": "AgIAAHYBAAAAAAAAAAAQwIoBAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T16:46:09.656Z"
+              "WhenOpened": "2025-08-16T05:55:23.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\CustomerManagement.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\CustomerManagement.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\CustomerManagement.cs [Design]",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\CustomerManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:53:04.186Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookingForm.cs",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\BookingForm.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\BookingForm.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\BookingForm.cs",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\BookingForm.cs",
+              "ViewState": "AgIAAN8BAAAAAAAAAAAEwPoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:52:38.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookingForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\BookingForm.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\BookingForm.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\BookingForm.cs [Design]",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\BookingForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:50:36.122Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "LoginForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\LoginForm.Designer.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\LoginForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\LoginForm.Designer.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\LoginForm.Designer.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Title": "DashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\DashboardForm.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.cs [Design]",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\DashboardForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T03:16:26.32Z"
+              "WhenOpened": "2025-08-16T05:49:31.007Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RoomForm.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RoomForm.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\RoomForm.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RoomForm.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\RoomForm.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowOUAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "BookingForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\BookingForm.Designer.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\BookingForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\BookingForm.Designer.cs",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\BookingForm.Designer.cs",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAkwCkBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T15:59:56.115Z"
+              "WhenOpened": "2025-08-16T05:47:45.182Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CustomerManagement.resx",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\CustomerManagement.resx",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\CustomerManagement.resx",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\CustomerManagement.resx",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\CustomerManagement.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-08-14T03:30:27.6Z"
+              "DocumentIndex": 2,
+              "Title": "CustomerManagement.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\CustomerManagement.Designer.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\CustomerManagement.Designer.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\CustomerManagement.Designer.cs",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\CustomerManagement.Designer.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAUwJQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:35:29.696Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "RegistrationForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RegistrationForm.Designer.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\RegistrationForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RegistrationForm.Designer.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\RegistrationForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\LoginForm.cs",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\LoginForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T17:34:23.677Z",
+              "WhenOpened": "2025-08-15T18:02:33.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegistrationForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RegistrationForm.Designer.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\RegistrationForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RegistrationForm.Designer.cs",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\RegistrationForm.Designer.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAwwMMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:27:27.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegistrationForm.cs",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RegistrationForm.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\RegistrationForm.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RegistrationForm.cs",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\RegistrationForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:27:22.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "RegistrationForm.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RegistrationForm.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\RegistrationForm.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RegistrationForm.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\RegistrationForm.cs",
-              "ViewState": "AgIAAAgBAAAAAAAAAAD4vxgBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T17:34:10.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\LoginForm.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\LoginForm.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAD4v08AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T05:25:43.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DashboardForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.Designer.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\DashboardForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.Designer.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\DashboardForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T16:46:44.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DashboardForm.resx",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.resx",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\DashboardForm.resx",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.resx",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\DashboardForm.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-08-14T03:10:23.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\Program.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\Program.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\Program.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T13:10:50.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BookingForm.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\BookingForm.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\BookingForm.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\BookingForm.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\BookingForm.cs",
-              "ViewState": "AgIAAPkBAAAAAAAAAAAAAOoAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T15:11:44.164Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "PaymentForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\PaymentForm.Designer.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\PaymentForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\PaymentForm.Designer.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\PaymentForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T16:14:48.581Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\.gitignore",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\.gitignore",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\.gitignore",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-08-11T17:06:11.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "SessionManager.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\SessionManager.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\SessionManager.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\SessionManager.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\SessionManager.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T14:47:27.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "PaymentForm.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\PaymentForm.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\PaymentForm.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\PaymentForm.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\PaymentForm.cs",
-              "ViewState": "AgIAAH4BAAAAAAAAAAAmwJYBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T16:14:20.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CustomerManagement.cs",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\CustomerManagement.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\CustomerManagement.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\CustomerManagement.cs",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\CustomerManagement.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAIwKAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T06:04:29.022Z",
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\App.config",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\App.config",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\App.config",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-15T18:12:59.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DashboardForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\DashboardForm.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.cs [Design]",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\DashboardForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T16:25:22.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RoomForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RoomForm.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\RoomForm.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RoomForm.cs [Design]",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\RoomForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T16:25:27.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PaymentForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\PaymentForm.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\PaymentForm.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\PaymentForm.cs [Design]",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\PaymentForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T16:25:25.877Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\LoginForm.cs [Design]",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\LoginForm.cs [Design]",
+              "Title": "DashboardForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.Designer.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\DashboardForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.Designer.cs",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\DashboardForm.Designer.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAArwHUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T03:03:04.857Z"
+              "WhenOpened": "2025-08-15T18:08:01.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\DashboardForm.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DashboardForm.cs",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\DashboardForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T18:07:25.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\Program.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\Program.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\Program.cs",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T18:04:44.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\SessionManager.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\SessionManager.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\SessionManager.cs",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\SessionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T17:59:31.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoomForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RoomForm.Designer.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\RoomForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RoomForm.Designer.cs",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\RoomForm.Designer.cs",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAAAPwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T17:55:51.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RoomForm.cs",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RoomForm.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\RoomForm.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\RoomForm.cs",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\RoomForm.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAuwPcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T17:55:49.82Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "CustomerManagement.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\CustomerManagement.cs",
-              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\CustomerManagement.cs",
-              "ToolTip": "C:\\Users\\Dumindu2006\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\CustomerManagement.cs [Design]",
-              "RelativeToolTip": "Hotel_Room_Booking_System\\CustomerManagement.cs [Design]",
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "Hotel_Room_Booking_System\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\Senuda\\source\\repos\\hotel-management-system\\Hotel_Room_Booking_System\\DatabaseHelper.cs",
+              "RelativeToolTip": "Hotel_Room_Booking_System\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T16:25:31.13Z"
+              "WhenOpened": "2025-08-15T17:07:43.002Z",
+              "EditorCaption": ""
             }
           ]
         }

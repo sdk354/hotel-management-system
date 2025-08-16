@@ -501,5 +501,10 @@ namespace Hotel_Room_Booking_System
                 }
             }
         }
+
+        private void lblWelcome_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
