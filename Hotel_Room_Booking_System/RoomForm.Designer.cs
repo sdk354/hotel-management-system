@@ -1,4 +1,8 @@
-﻿namespace Hotel_Room_Booking_System
+﻿using System;
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace Hotel_Room_Booking_System
 {
     partial class RoomForm
     {
@@ -18,6 +22,7 @@
         private Label lblPrice;
         private Label lblStatus;
         private Label lblViewRoom;
+        private Label lblHeader;
 
         protected override void Dispose(bool disposing)
         {
@@ -142,14 +147,15 @@
             dataGridView1.AllowUserToDeleteRows = false;
             dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridView1.ColumnHeadersHeight = 29;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.ColumnHeadersDefaultCellStyle.Padding = new Padding(0, 4, 0, 4);
             dataGridView1.Location = new Point(33, 395);
             dataGridView1.MultiSelect = false;
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(872, 132);
+            dataGridView1.Size = new Size(872, 180);
             dataGridView1.TabIndex = 14;
             // 
             // lblRoomNumber
@@ -218,7 +224,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(942, 550);
+            ClientSize = new Size(942, 600); // increased height
             Controls.Add(lblHeader);
             Controls.Add(lblRoomNumber);
             Controls.Add(txtRoomNumber);
@@ -242,6 +248,5 @@
             ResumeLayout(false);
             PerformLayout();
         }
-        private Label lblHeader;
     }
 }

@@ -108,7 +108,6 @@ namespace Hotel_Room_Booking_System
             lblWelcome.Size = new Size(499, 46);
             lblWelcome.TabIndex = 0;
             lblWelcome.Text = "Welcome to Our Hotel System";
-            lblWelcome.Click += lblWelcome_Click;
             // 
             // DashboardForm
             // 

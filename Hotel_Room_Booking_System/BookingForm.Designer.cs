@@ -1,7 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Drawing;
-using System.Linq;
 using System.Windows.Forms;
 
 namespace Hotel_Room_Booking_System
@@ -9,7 +8,6 @@ namespace Hotel_Room_Booking_System
     partial class BookingForm
     {
         private IContainer components = null;
-
         private ComboBox cmbCustomers;
         private ComboBox cmbRooms;
         private DateTimePicker dtpCheckIn;
@@ -36,8 +34,6 @@ namespace Hotel_Room_Booking_System
 
         private void InitializeComponent()
         {
-            components = new Container();
-
             cmbCustomers = new ComboBox();
             cmbRooms = new ComboBox();
             dtpCheckIn = new DateTimePicker();
@@ -55,109 +51,222 @@ namespace Hotel_Room_Booking_System
             lblStatus = new Label();
             dgvBookings = new DataGridView();
             lblCount = new Label();
-
+            lblHeader = new Label();
+            ((ISupportInitialize)dgvBookings).BeginInit();
             SuspendLayout();
-
-            // ComboBoxes and Labels
+            // 
+            // cmbCustomers
+            // 
             cmbCustomers.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbCustomers.Location = new Point(180, 24);
-            cmbCustomers.Size = new Size(320, 40);
-
+            cmbCustomers.Font = new Font("Segoe UI", 12F);
+            cmbCustomers.Location = new Point(292, 162);
+            cmbCustomers.Margin = new Padding(5, 5, 5, 5);
+            cmbCustomers.Name = "cmbCustomers";
+            cmbCustomers.Size = new Size(518, 53);
+            cmbCustomers.TabIndex = 0;
+            // 
+            // cmbRooms
+            // 
             cmbRooms.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbRooms.Location = new Point(180, 72);
-            cmbRooms.Size = new Size(320, 40);
-
-            dtpCheckIn.Location = new Point(180, 120);
-            dtpCheckIn.Size = new Size(320, 39);
+            cmbRooms.Font = new Font("Segoe UI", 12F);
+            cmbRooms.Location = new Point(292, 239);
+            cmbRooms.Margin = new Padding(5, 5, 5, 5);
+            cmbRooms.Name = "cmbRooms";
+            cmbRooms.Size = new Size(518, 53);
+            cmbRooms.TabIndex = 1;
+            // 
+            // dtpCheckIn
+            // 
+            dtpCheckIn.Font = new Font("Segoe UI", 12F);
+            dtpCheckIn.Location = new Point(292, 316);
+            dtpCheckIn.Margin = new Padding(5, 5, 5, 5);
+            dtpCheckIn.Name = "dtpCheckIn";
+            dtpCheckIn.Size = new Size(518, 50);
+            dtpCheckIn.TabIndex = 2;
             dtpCheckIn.ValueChanged += dtpCheckIn_ValueChanged;
-
-            dtpCheckOut.Location = new Point(180, 168);
-            dtpCheckOut.Size = new Size(320, 39);
-
+            // 
+            // dtpCheckOut
+            // 
+            dtpCheckOut.Font = new Font("Segoe UI", 12F);
+            dtpCheckOut.Location = new Point(292, 393);
+            dtpCheckOut.Margin = new Padding(5, 5, 5, 5);
+            dtpCheckOut.Name = "dtpCheckOut";
+            dtpCheckOut.Size = new Size(518, 50);
+            dtpCheckOut.TabIndex = 3;
+            // 
+            // cmbStatus
+            // 
             cmbStatus.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbStatus.Location = new Point(180, 216);
-            cmbStatus.Size = new Size(320, 40);
-
-            // Buttons
-            btnBook.Location = new Point(520, 24);
-            btnBook.Size = new Size(130, 40);
+            cmbStatus.Font = new Font("Segoe UI", 12F);
+            cmbStatus.Location = new Point(292, 470);
+            cmbStatus.Margin = new Padding(5, 5, 5, 5);
+            cmbStatus.Name = "cmbStatus";
+            cmbStatus.Size = new Size(518, 53);
+            cmbStatus.TabIndex = 4;
+            // 
+            // btnBook
+            // 
+            btnBook.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnBook.Location = new Point(849, 162);
+            btnBook.Margin = new Padding(5, 5, 5, 5);
+            btnBook.Name = "btnBook";
+            btnBook.Size = new Size(211, 58);
+            btnBook.TabIndex = 5;
             btnBook.Text = "Add";
             btnBook.Click += btnBook_Click;
-
-            btnUpdate.Location = new Point(520, 72);
-            btnUpdate.Size = new Size(130, 40);
+            // 
+            // btnUpdate
+            // 
+            btnUpdate.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnUpdate.Location = new Point(849, 234);
+            btnUpdate.Margin = new Padding(5, 5, 5, 5);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(211, 58);
+            btnUpdate.TabIndex = 6;
             btnUpdate.Text = "Update";
             btnUpdate.Click += btnUpdate_Click;
-
-            btnDelete.Location = new Point(520, 120);
-            btnDelete.Size = new Size(130, 40);
+            // 
+            // btnDelete
+            // 
+            btnDelete.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnDelete.Location = new Point(849, 309);
+            btnDelete.Margin = new Padding(5, 5, 5, 5);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(211, 58);
+            btnDelete.TabIndex = 7;
             btnDelete.Text = "Delete";
             btnDelete.Click += btnDelete_Click;
-
-            btnRefresh.Location = new Point(520, 168);
-            btnRefresh.Size = new Size(130, 40);
+            // 
+            // btnRefresh
+            // 
+            btnRefresh.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnRefresh.Location = new Point(849, 385);
+            btnRefresh.Margin = new Padding(5, 5, 5, 5);
+            btnRefresh.Name = "btnRefresh";
+            btnRefresh.Size = new Size(211, 58);
+            btnRefresh.TabIndex = 8;
             btnRefresh.Text = "Refresh";
             btnRefresh.Click += btnRefresh_Click;
-
-            btnClear.Location = new Point(520, 216);
-            btnClear.Size = new Size(130, 40);
+            // 
+            // btnClear
+            // 
+            btnClear.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnClear.Location = new Point(849, 463);
+            btnClear.Margin = new Padding(5, 5, 5, 5);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(211, 58);
+            btnClear.TabIndex = 9;
             btnClear.Text = "Clear";
             btnClear.Click += btnClear_Click;
-
-            // Labels
-            lblCustomer.Location = new Point(24, 24);
-            lblCustomer.Size = new Size(150, 32);
+            // 
+            // lblCustomer
+            // 
+            lblCustomer.AutoSize = true;
+            lblCustomer.Font = new Font("Segoe UI", 12F);
+            lblCustomer.Location = new Point(39, 169);
+            lblCustomer.Margin = new Padding(5, 0, 5, 0);
+            lblCustomer.Name = "lblCustomer";
+            lblCustomer.Size = new Size(165, 45);
+            lblCustomer.TabIndex = 10;
             lblCustomer.Text = "Customer:";
-
-            lblRoom.Location = new Point(24, 72);
-            lblRoom.Size = new Size(150, 32);
+            // 
+            // lblRoom
+            // 
+            lblRoom.AutoSize = true;
+            lblRoom.Font = new Font("Segoe UI", 12F);
+            lblRoom.Location = new Point(39, 246);
+            lblRoom.Margin = new Padding(5, 0, 5, 0);
+            lblRoom.Name = "lblRoom";
+            lblRoom.Size = new Size(111, 45);
+            lblRoom.TabIndex = 11;
             lblRoom.Text = "Room:";
-
-            lblCheckIn.Location = new Point(24, 120);
-            lblCheckIn.Size = new Size(150, 32);
+            // 
+            // lblCheckIn
+            // 
+            lblCheckIn.AutoSize = true;
+            lblCheckIn.Font = new Font("Segoe UI", 12F);
+            lblCheckIn.Location = new Point(39, 322);
+            lblCheckIn.Margin = new Padding(5, 0, 5, 0);
+            lblCheckIn.Name = "lblCheckIn";
+            lblCheckIn.Size = new Size(153, 45);
+            lblCheckIn.TabIndex = 12;
             lblCheckIn.Text = "Check-In:";
-
-            lblCheckOut.Location = new Point(24, 168);
-            lblCheckOut.Size = new Size(150, 32);
+            // 
+            // lblCheckOut
+            // 
+            lblCheckOut.AutoSize = true;
+            lblCheckOut.Font = new Font("Segoe UI", 12F);
+            lblCheckOut.Location = new Point(39, 399);
+            lblCheckOut.Margin = new Padding(5, 0, 5, 0);
+            lblCheckOut.Name = "lblCheckOut";
+            lblCheckOut.Size = new Size(179, 45);
+            lblCheckOut.TabIndex = 13;
             lblCheckOut.Text = "Check-Out:";
-
-            lblStatus.Location = new Point(24, 216);
-            lblStatus.Size = new Size(150, 32);
+            // 
+            // lblStatus
+            // 
+            lblStatus.AutoSize = true;
+            lblStatus.Font = new Font("Segoe UI", 12F);
+            lblStatus.Location = new Point(39, 476);
+            lblStatus.Margin = new Padding(5, 0, 5, 0);
+            lblStatus.Name = "lblStatus";
+            lblStatus.Size = new Size(113, 45);
+            lblStatus.TabIndex = 14;
             lblStatus.Text = "Status:";
-
-            // Grid
+            // 
+            // dgvBookings
+            // 
             dgvBookings.AllowUserToAddRows = false;
             dgvBookings.AllowUserToDeleteRows = false;
             dgvBookings.AllowUserToOrderColumns = true;
-            dgvBookings.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells; // Auto-resize by content
+            dgvBookings.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dgvBookings.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvBookings.BackgroundColor = SystemColors.Window;
             dgvBookings.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvBookings.Location = new Point(24, 280);
-            dgvBookings.Size = new Size(826, 320);
-            dgvBookings.ReadOnly = true;
-            dgvBookings.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvBookings.Location = new Point(39, 562);
+            dgvBookings.Margin = new Padding(5, 5, 5, 5);
             dgvBookings.MultiSelect = false;
+            dgvBookings.Name = "dgvBookings";
+            dgvBookings.ReadOnly = true;
             dgvBookings.RowHeadersVisible = false;
+            dgvBookings.RowHeadersWidth = 82;
             dgvBookings.RowTemplate.Height = 33;
-            dgvBookings.SelectionChanged += dgvBookings_SelectionChanged;
-
-            // Fit after data binds and when columns mutate
-            dgvBookings.DataBindingComplete += (_, __) => BeginInvoke((Action)ResizeToFitGrid);
-            dgvBookings.ColumnAdded += (_, __) => BeginInvoke((Action)ResizeToFitGrid);
-            dgvBookings.ColumnRemoved += (_, __) => BeginInvoke((Action)ResizeToFitGrid);
-            dgvBookings.ColumnWidthChanged += (_, __) => BeginInvoke((Action)ResizeToFitGrid);
-
-            // Count Label (prominent)
-            lblCount.Text = "Total bookings: 0";
-            lblCount.AutoSize = false;
-            lblCount.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            dgvBookings.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvBookings.Size = new Size(1342, 474);
+            dgvBookings.TabIndex = 15;
+            dgvBookings.CellClick += dgvBookings_SelectionChanged;
+            // 
+            // lblCount
+            // 
+            lblCount.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblCount.ForeColor = Color.FromArgb(30, 60, 114);
+            lblCount.Location = new Point(39, 1051);
+            lblCount.Margin = new Padding(5, 0, 5, 0);
+            lblCount.Name = "lblCount";
+            lblCount.Size = new Size(488, 58);
+            lblCount.TabIndex = 16;
+            lblCount.Text = "Total bookings: 0";
             lblCount.TextAlign = ContentAlignment.MiddleLeft;
-            lblCount.Location = new Point(24, 610); // will be repositioned by ResizeToFitGrid
-            lblCount.Size = new Size(300, 36);
-            lblCount.Anchor = AnchorStyles.Left | AnchorStyles.Bottom | AnchorStyles.Right;
-
-            // Add controls
+            // 
+            // lblHeader
+            // 
+            lblHeader.AutoSize = true;
+            lblHeader.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
+            lblHeader.ForeColor = Color.DarkSlateBlue;
+            lblHeader.Location = new Point(410, 46);
+            lblHeader.Margin = new Padding(5, 0, 5, 0);
+            lblHeader.Name = "lblHeader";
+            lblHeader.Size = new Size(565, 72);
+            lblHeader.TabIndex = 18;
+            lblHeader.Text = "Booking Registration";
+            lblHeader.Click += lblWelcome_Click;
+            // 
+            // BookingForm
+            // 
+            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1420, 1148);
+            Controls.Add(lblHeader);
             Controls.Add(cmbCustomers);
             Controls.Add(cmbRooms);
             Controls.Add(dtpCheckIn);
@@ -175,70 +284,14 @@ namespace Hotel_Room_Booking_System
             Controls.Add(lblStatus);
             Controls.Add(dgvBookings);
             Controls.Add(lblCount);
-
-            // Form
-            AutoScaleDimensions = new SizeF(13F, 32F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(874, 650);
+            Margin = new Padding(5, 5, 5, 5);
+            Name = "BookingForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Bookings";
-
-            // Run a fit on first show
-            Shown += (_, __) => ResizeToFitGrid();
-
+            ((ISupportInitialize)dgvBookings).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
-
-        private void ResizeToFitGrid()
-        {
-            if (dgvBookings.Columns.Count == 0) return;
-
-            // Force column autosize to get actual widths
-            dgvBookings.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
-
-            // Total width of visible columns + row headers (if any)
-            int columnsWidth = (dgvBookings.RowHeadersVisible ? dgvBookings.RowHeadersWidth : 0);
-            foreach (DataGridViewColumn col in dgvBookings.Columns)
-            {
-                if (col.Visible) columnsWidth += col.Width;
-            }
-
-            // Account for vertical scrollbar (if rows exceed display)
-            bool vScrollVisible = dgvBookings.RowCount > dgvBookings.DisplayedRowCount(false);
-            int vScrollReserve = vScrollVisible ? SystemInformation.VerticalScrollBarWidth : 0;
-
-            // Apply grid width so no horizontal scroll is needed
-            int gridSidePadding = 2; // minor fudge for borders
-            dgvBookings.Width = columnsWidth + vScrollReserve + gridSidePadding;
-
-            // Reposition and enlarge the count label just below the grid
-            int outerMargin = 24;
-            int spacing = 16;
-            int labelHeight = 36;
-
-            lblCount.Location = new Point(outerMargin, dgvBookings.Bottom + spacing);
-            lblCount.Size = new Size(
-                Math.Max(300, dgvBookings.Left + dgvBookings.Width - (outerMargin * 2)),
-                labelHeight
-            );
-
-            // Compute desired client size so nothing is clipped
-            int rightPadding = outerMargin + 8;
-            int bottomPadding = outerMargin;
-
-            int desiredClientWidth = dgvBookings.Left + dgvBookings.Width + rightPadding;
-            int desiredClientHeight = lblCount.Top + lblCount.Height + bottomPadding;
-
-            // Set ClientSize big enough to fully show grid and label
-            ClientSize = new Size(
-                Math.Max(desiredClientWidth, ClientSize.Width),
-                Math.Max(desiredClientHeight, ClientSize.Height)
-            );
-
-            // Keep a sensible minimum so the user can’t shrink past content
-            int nonClientW = Width - ClientSize.Width;
-            int nonClientH = Height - ClientSize.Height;
-            MinimumSize = new Size(ClientSize.Width + nonClientW, ClientSize.Height + nonClientH);
-        }
+        private Label lblHeader;
     }
 }
