@@ -30,14 +30,16 @@ namespace Hotel_Room_Booking_System
             btnLogout = new Button();
             btnRegister = new Button();
             lblWelcome = new Label();
+            toolStrip1 = new ToolStrip();
             SuspendLayout();
             // 
             // btnCustomers
             // 
             btnCustomers.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            btnCustomers.Location = new Point(340, 180);
+            btnCustomers.Location = new Point(327, 308);
+            btnCustomers.Margin = new Padding(5, 5, 5, 5);
             btnCustomers.Name = "btnCustomers";
-            btnCustomers.Size = new Size(180, 60);
+            btnCustomers.Size = new Size(292, 96);
             btnCustomers.TabIndex = 6;
             btnCustomers.Text = "Customers";
             btnCustomers.UseVisualStyleBackColor = true;
@@ -46,9 +48,10 @@ namespace Hotel_Room_Booking_System
             // btnRooms
             // 
             btnRooms.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            btnRooms.Location = new Point(120, 100);
+            btnRooms.Location = new Point(327, 178);
+            btnRooms.Margin = new Padding(5, 5, 5, 5);
             btnRooms.Name = "btnRooms";
-            btnRooms.Size = new Size(180, 60);
+            btnRooms.Size = new Size(292, 96);
             btnRooms.TabIndex = 3;
             btnRooms.Text = "Rooms";
             btnRooms.UseVisualStyleBackColor = true;
@@ -57,9 +60,10 @@ namespace Hotel_Room_Booking_System
             // btnBookings
             // 
             btnBookings.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            btnBookings.Location = new Point(340, 100);
+            btnBookings.Location = new Point(656, 178);
+            btnBookings.Margin = new Padding(5, 5, 5, 5);
             btnBookings.Name = "btnBookings";
-            btnBookings.Size = new Size(180, 60);
+            btnBookings.Size = new Size(292, 96);
             btnBookings.TabIndex = 4;
             btnBookings.Text = "Bookings";
             btnBookings.UseVisualStyleBackColor = true;
@@ -68,9 +72,10 @@ namespace Hotel_Room_Booking_System
             // btnPayments
             // 
             btnPayments.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            btnPayments.Location = new Point(560, 100);
+            btnPayments.Location = new Point(656, 308);
+            btnPayments.Margin = new Padding(5, 5, 5, 5);
             btnPayments.Name = "btnPayments";
-            btnPayments.Size = new Size(180, 60);
+            btnPayments.Size = new Size(292, 96);
             btnPayments.TabIndex = 5;
             btnPayments.Text = "Payments";
             btnPayments.UseVisualStyleBackColor = true;
@@ -79,9 +84,10 @@ namespace Hotel_Room_Booking_System
             // btnLogout
             // 
             btnLogout.Font = new Font("Segoe UI", 11F);
-            btnLogout.Location = new Point(760, 20);
+            btnLogout.Location = new Point(1115, 52);
+            btnLogout.Margin = new Padding(5, 5, 5, 5);
             btnLogout.Name = "btnLogout";
-            btnLogout.Size = new Size(100, 40);
+            btnLogout.Size = new Size(162, 64);
             btnLogout.TabIndex = 2;
             btnLogout.Text = "Logout";
             btnLogout.UseVisualStyleBackColor = true;
@@ -90,9 +96,10 @@ namespace Hotel_Room_Booking_System
             // btnRegister
             // 
             btnRegister.Font = new Font("Segoe UI", 11F);
-            btnRegister.Location = new Point(20, 20);
+            btnRegister.Location = new Point(32, 52);
+            btnRegister.Margin = new Padding(5, 5, 5, 5);
             btnRegister.Name = "btnRegister";
-            btnRegister.Size = new Size(100, 40);
+            btnRegister.Size = new Size(162, 64);
             btnRegister.TabIndex = 1;
             btnRegister.Text = "Admins";
             btnRegister.UseVisualStyleBackColor = true;
@@ -103,18 +110,29 @@ namespace Hotel_Room_Booking_System
             lblWelcome.AutoSize = true;
             lblWelcome.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
             lblWelcome.ForeColor = Color.DarkSlateBlue;
-            lblWelcome.Location = new Point(204, 20);
+            lblWelcome.Location = new Point(260, 44);
+            lblWelcome.Margin = new Padding(5, 0, 5, 0);
             lblWelcome.Name = "lblWelcome";
-            lblWelcome.Size = new Size(499, 46);
+            lblWelcome.Size = new Size(793, 72);
             lblWelcome.TabIndex = 0;
             lblWelcome.Text = "Welcome to Our Hotel System";
             // 
+            // toolStrip1
+            // 
+            toolStrip1.ImageScalingSize = new Size(32, 32);
+            toolStrip1.Location = new Point(0, 0);
+            toolStrip1.Name = "toolStrip1";
+            toolStrip1.Size = new Size(1326, 25);
+            toolStrip1.TabIndex = 7;
+            toolStrip1.Text = "toolStrip1";
+            // 
             // DashboardForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(880, 280);
+            ClientSize = new Size(1326, 448);
+            Controls.Add(toolStrip1);
             Controls.Add(lblWelcome);
             Controls.Add(btnRegister);
             Controls.Add(btnLogout);
@@ -123,11 +141,13 @@ namespace Hotel_Room_Booking_System
             Controls.Add(btnPayments);
             Controls.Add(btnCustomers);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            Margin = new Padding(5, 5, 5, 5);
             MaximizeBox = false;
             Name = "DashboardForm";
             Text = "Dashboard";
             ResumeLayout(false);
             PerformLayout();
         }
+        private ToolStrip toolStrip1;
     }
 }
